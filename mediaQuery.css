@@ -147,6 +147,27 @@
     height: 40vh;
     filter: brightness(0.85);
   }
+  .insta-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .insta-img {
+    height: 450px;
+  }
+  .insta-text {
+    text-align: center;
+  }
+  .insta-section p{
+    font-size: 3.5vw;
+    letter-spacing: 0.7rem;
+  }
+  .insta-text button {
+    width: 40%;
+    margin: auto;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -158,9 +179,42 @@
     height: 250px;
   }
 
-  .img-category .card img {
-    width: 35vw;
-    height: 50vh;
-    object-fit: cover;
+  .img-category .card{
+    width: 50%;
+    height: 40vh;
+    object-fit: cover; 
+    gap: 3vh;
+  }
+  .hero-section2 img {
+    display: none;
+  }
+
+  .insta-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .insta-img {
+    height: 450px;
+  }
+  .insta-text {
+    text-align: center;
+  }
+  .insta-section p{
+    font-size: 3.5vw;
+    letter-spacing: 0.7rem;
+  }
+  .insta-text button {
+    width: 30%;
+    margin: auto;
+  }
+
+  .newsLetter-right span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
 }
