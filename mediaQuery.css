@@ -175,12 +175,12 @@
     overflow-x: hidden;
   }
   .loader-content-top h1 {
-    font-size: 6vh;
+    font-size: 4.8vh;
     font-weight: 100;
-    letter-spacing: 11px;
+    letter-spacing: 8px;
   }
   .loader-content-bottom h1 {
-    font-size: 4vh;
+    font-size: 3.2vh;
     font-weight: 100;
     margin-top: 1.5vh;
     text-align: center;
