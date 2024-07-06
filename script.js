@@ -89,7 +89,7 @@ document.getElementById('scrollToTopBtn').addEventListener('click', function(e) 
     easing: [0.25, 0.1, 0.25, 1],
     callback: () => {
       animatedImages.forEach(image => {
-        image.style.transform = 'translateY(0)';
+        image.style.transform = 'translateY(0)';  
       });
     }
   });
