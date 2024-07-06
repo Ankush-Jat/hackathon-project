@@ -101,7 +101,7 @@ tl.from(".hero-responsive button", {
   ease:'power1.inOut'
 })
 }
-// pageAnimation()
+pageAnimation()
 
 
 
