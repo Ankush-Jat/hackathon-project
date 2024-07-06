@@ -2,8 +2,11 @@
   .hamburger {
     display: block;
   }
+  .hamburg{
+    top: 10%;
+  }
   .hamburger i {
-    font-size: 18px;
+    font-size: 20px;
   }
   .navbar {
     width: 100%;
@@ -127,6 +130,15 @@
   .top-footer {
     display: none;
   }
+
+  .img-category .card img {
+    width: 35vw;
+    height: 40vh;
+    display: flex;
+    gap: 2rem;
+    filter: brightness(0.85);
+    border-radius: 0.75vw;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -168,11 +180,25 @@
     width: 40%;
     margin: auto;
   }
+  .img-category .card img {
+    width: 35vw;
+    height: 30vh;
+    display: flex;
+    gap: 2rem;
+    filter: brightness(0.85);
+    border-radius: 0.75vw;
+  }
+  .ham{
+    font-size: 3rem;
+  }
 }
 
 @media only screen and (max-width: 500px) {
   body {
     overflow-x: hidden;
+  }
+  .ham{
+    font-size: 2.5rem;
   }
   .loader-content-top h1 {
     font-size: 4.8vh;
@@ -300,6 +326,13 @@
     color: #333;
     margin-bottom: 5px;
   }
-
+  .img-category .card img {
+    width: 25vw;
+    height: 20vh;
+    display: flex;
+    gap: 2rem;
+    filter: brightness(0.85);
+    border-radius: 0.75vw;
+  }
 
 }

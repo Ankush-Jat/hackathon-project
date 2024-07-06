@@ -11,7 +11,8 @@ const scroll = new LocomotiveScroll({
 //  loading screen
 
 
-var tl = gsap.timeline();
+function pageAnimation(){
+  var tl = gsap.timeline();
 
 tl.from (".loader-shery span", {
   delay:0.5,
@@ -55,8 +56,52 @@ tl.to(".loader", {
   display:"none"
 })
 
+// for website loadng
 
-
+tl.from('.nav-logo', {
+  y:-30,
+  opacity:0,
+  duration:0.5,
+  ease:'power1.inOut'
+},'-=1')
+tl.from('.nav-icons', {
+  y:-30,
+  opacity:0,
+  duration:0.4,
+  ease:'power1.inOut'
+})
+tl.from('.nav-text div', {
+  y:-30,
+  opacity:0,
+  duration:0.4,
+  stagger:0.1,
+  ease:'power1.inOut'
+})
+tl.from('.hero-bg',{
+  y:-300,
+  opacity:0,
+  duration:0.4,
+  ease:'in-out'
+})
+tl.from(".hero-responsive h1", {
+  x:-50,
+  opacity:0,
+  duration:0.2,
+})
+tl.from(".hero-responsive p", {
+  x:-50,
+  opacity:0,
+  duration:0.2,
+  ease:'power1.inOut'
+})
+tl.from(".hero-responsive button", {
+  x:-50,
+  opacity:0,
+  duration:0.2,
+  ease:'power1.inOut'
+})
+}
+// pageAnimation()
 
 
 
@@ -157,3 +202,22 @@ window.addEventListener('resize', () => {
 window.addEventListener('load', () => {
   scroll.update();
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+//  Animation for full website in GSAP and ScrollTrogger
+
+
+
+var tl = gsap.timeline();
+
